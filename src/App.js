@@ -6,6 +6,7 @@ import './App.css'
 const App = () => (
   <Switch>
     <Route exact path="/" component={Home} />
+    <Route exact path="/matrixlab/" component={Home} />
     <Route component={NotFound} />
   </Switch>
 )
