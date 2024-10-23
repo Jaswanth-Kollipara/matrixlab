@@ -1,0 +1,40 @@
+.main-container{
+    background-color: black;
+}
+
+.tokenomics{
+    height: 100vh;
+    background-color: rgb(24, 28, 28);
+    padding-top: 20px;
+}
+
+.tokenomics-h1{
+    color: white;
+    text-align: center;
+}
+
+.tokenomics-container{
+    height: 80vh;
+}
+
+.tokenomics-container-in{
+    background-color: rgb(21, 43, 43);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+@media (max-width:576px) {
+    .tokenomics{
+        height: 150vh;
+    }
+
+    .tokenomics-chart{
+        height: 40vh;
+    }
+
+    .tokenomics-con-in{
+        height: 100vh;
+    }
+}

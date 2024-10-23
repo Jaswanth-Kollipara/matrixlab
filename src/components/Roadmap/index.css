@@ -1,0 +1,123 @@
+.main-container{
+    background-color: black;
+}
+
+
+.roadmap{
+    background-color: rgb(24, 28, 28);
+    padding-top: 20px;
+}
+
+.roadmap-h1{
+    color: white;
+    text-align: center;
+}
+
+.roadmap-container1{
+    height: 95vh;
+    margin-bottom: 3vh;
+}
+
+.roadmap-btn{
+    color: black;
+    background-color: white;
+}
+
+.roadmap-in-h1{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.roadmap-p{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.aqua-icon{
+    color: aqua;
+}
+
+.roadmap-img{
+    height: 100%;
+    width: 100%;
+}
+
+.roadmap-container2{
+    height: 75vh;
+    margin-bottom: 3vh;
+}
+
+.roadmap-p1{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.explore-container{
+    margin-top: 0px;
+    height: 70vh;
+    background-color: rgb(24, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.explore-container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid aqua;
+    background-color: rgb(21, 43, 43);
+    width: 80%;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5vh;
+}
+
+.explore-h1{
+    color: white;
+}
+
+.explore-sp{
+    color: aqua;
+}
+
+.explore-p{
+    text-align: center;
+    color: aqua;
+    opacity: 0.5;
+}
+
+.explore-btn{
+    color: black;
+    background-color: aqua;
+    border: none;
+}
+
+@media (max-width:576px) {
+    .roadmap-container1{
+        height: auto;
+    }
+
+    .roadmap-container2{
+        height: auto;
+    }
+
+    .explore-container{
+        height: auto;
+    }
+
+    .explore-container-main{
+        padding-left: 0%;
+        padding-right: 0px;
+    }
+
+    .explore-h1{
+        font-size: 35px;
+    }
+}
